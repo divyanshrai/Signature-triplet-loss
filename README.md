@@ -20,6 +20,12 @@ Since keras doesn't offer a triplet loss function we define our own -
 
 ### Some important preprocessing of images
 
-1. Using OTSU thresholding ot remove any traces of background inteference
+1. Using OTSU thresholding to remove any traces of background inteference
+
+![image](https://user-images.githubusercontent.com/25175533/54495693-32123500-490c-11e9-97d2-40fec3246093.png)
+
+After thresholding and resizing we see that the background is clear now
+
+![image](https://user-images.githubusercontent.com/25175533/54495711-5f5ee300-490c-11e9-8da3-f45d0f63298b.png)
 
 2. Cropping and padding the larger, msotly empty images to just include the signature

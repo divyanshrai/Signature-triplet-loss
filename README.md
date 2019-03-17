@@ -28,4 +28,6 @@ After thresholding and resizing we see that the background is clear now
 
 ![image](https://user-images.githubusercontent.com/25175533/54495711-5f5ee300-490c-11e9-8da3-f45d0f63298b.png)
 
-2. Cropping and padding the larger, msotly empty images to just include the signature
+2. Cropping and padding the larger, mostly empty images to just include the signature
+
+![image](https://user-images.githubusercontent.com/25175533/54497231-0ac46380-491e-11e9-9b88-f9236cce76b9.png)
